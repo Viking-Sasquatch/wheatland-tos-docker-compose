@@ -1,10 +1,6 @@
 services:
   db:
     build: sqlserver/
-    environment:
-      ACCEPT_EULA: "Y"
-      SA_PASSWORD: example_123
-    # mssql server image is 2017 to match wheatland
     restart: always
     healthcheck:
         test: ["CMD-SHELL", "/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P example_123 -Q 'SELECT 1' || exit 1"]
