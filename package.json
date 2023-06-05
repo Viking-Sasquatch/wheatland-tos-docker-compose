@@ -1,0 +1,24 @@
+{
+  "name": "wheatland-tos-docker-compose",
+  "version": "1.0.0",
+  "description": "Docker compose project to spin up entire wheatland project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viking-Sasquatch/wheatland-tos-docker-compose.git"
+  },
+  "keywords": [
+    "docker",
+    "tos",
+    "wheatland"
+  ],
+  "author": "Ken Taylor <ken@vikingsasquatch.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Viking-Sasquatch/wheatland-tos-docker-compose/issues"
+  },
+  "homepage": "https://github.com/Viking-Sasquatch/wheatland-tos-docker-compose#readme"
+}
